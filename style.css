@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-image: url("assent/list-icon-notebook-with-completed-todo-list-3d-render_471402-428.avif");
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+}
+
+/* container title */
+.container-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffffff;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* container */
+.inputcol {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.textarea {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    font-size: 18px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333333;
+}
+
+.textarea:focus {
+    outline: none;
+    border-color: #6b73c1;
+}
+
+.buttoninput {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    background-color: #6b73c1;
+    color: #ffffff;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttoninput:hover {
+    background-color: #37b3cc;
+    color: white;
+}
+
+.todolist {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+.itemall {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.item {
+    flex: 1;
+    font-size: 18px;
+}
+
+.check-button, .trash-button {
+    border: none;
+    background-color: transparent;
+    color: #333333;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.check-button:hover {
+    color: #37b3cc;
+}
+
+.trash-button:hover {
+    color: #6b73c1;
+}
+
+.checklist {
+    text-decoration: line-through;
+    color: #888888;
+}
+
+.fa-check, .fa-trash {
+    pointer-events: none;
+}
+
+button, .check-button, .trash-button {
+    cursor: pointer;
+}
